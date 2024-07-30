@@ -1,31 +1,25 @@
-# Auto Birthday Wisher
+# Automatic_Backup
 
-One forgets to send birthday wishes to friends many times. At such times an automatic birthday wisher comes handy. An automatic birthday wisher via email makes one's life easy. It will send the birthday wishes to friends via email automatically via a server and using an excel sheet to store the data of friends and their birthdays along with email id. It'll send the wishes to friends for all the upcoming years untill we stop the server.
+Automatic Backup and Compression of large file, sped up using Threading.
+Multithreading helps in achieving MultiTasking using threads.
+
+Along with Multithreading `gzip` has been used for Compressing large files.
+I have made sur that the script required no additional library other than the basic standard packages.
 
 ## Setup instructions
 
-In order to run this script, You just need the following modules:
+As explained there is no specific `requirements.txt`. So no additional library or packages are required.
 
-- **Pandas** is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
-built on top of the Python programming language.
-```bash
-pip install pandas
+There are two files one `python` and one `notebook`. [`Auto_Backup.py`](./Auto_Backup.py) 
+is the script that can be quickly used to backup the desired file.
+
+For greater understanding of the script and proof of concept, refer to [`Auto_Backup.ipynb`](./Auto_Backup.ipynb).
+The Notebook has further illustrated the Script and is much more detailed. 
+
 ```
+Example Usage - 
 
-- **Datetime** is a module used for Encapsulation of date/time values.
-```bash
-pip install DateTime
-```
+python Auto_backup.py -t ./MIREX_Backup -s ./MIREX_Dataset -c 100000
 
-- **smtplib** module defines an SMTP client session object that can be used to send mail to any Internet machine with an SMTP or ESMTP listener daemon.
-
-## Configuration
-1. Assign the Gmail Id of sender to the GMAIL_ID variable in *line 10* of **"Auto B'Day Wisher.py"** file. (e.g. 'xyz@gmail.com')
-2. Similar to first step assign the Gmail password of sender to the GMAIL_PSWD variable in *line 11* of **"Auto B'Day Wisher.py"** file. (e.g. '1234')
-3. In **"data.xlsx"** file insert the name of the receiver in second column under *Name*. Similarly update the **Birthday** field with the birth date of receiver in the given format*("%dd-%mm-%YYYY")*. Update the **Dailogue** field with a short message you want to send and the **Email** field with the email of the receiver.
-4. Make sure to give permission to your google account from which you're sending email to **Allow less secure apps**. Just turn this *"ON"* from [here](https://support.google.com/accounts/answer/6010255?hl=en#zippy=%2Cif-less-secure-app-access-is-off-for-your-account).
-5. Run the command
-```bash
-python "Auto B'Day Wisher.py"
 ```
 
