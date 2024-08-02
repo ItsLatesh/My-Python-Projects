@@ -1,31 +1,8 @@
-# <b>Automate Facebook bot</b>
+# Brick Breaker Game
 
+Brick Breaker (The game) is a Breakout clonewhich the player must smash a wall of bricks by deflecting a bouncing ball with a paddle. The paddle may move horizontally and is controlled with the side arrow keys.
 
-## Automate Facebook bot Functionalities : 🚀
+## Setup instructions
 
-- On running the script it posts your message in the groups whose id is given by the user
-
-## Automate Facebook bot Instructions: 👨🏻‍💻
-
-### Step 1:
-
-    Open Termnial 💻
-
-### Step 2:
-
-    Locate to the directory where python file is located 📂
-
-### Step 3:
-
-    Run the command: python script.py/python3 script.py 🧐
-
-### Step 4:
-
-    Sit back and Relax. Let the Script do the Job. ☕
-
-### Requirements
-
-    - pyautogui
-    - time
-    
+Run `python/python3 brick_breaker.py`
 
