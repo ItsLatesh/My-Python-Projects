@@ -1,8 +1,4 @@
-# Brick Breaker Game
-
-Brick Breaker (The game) is a Breakout clonewhich the player must smash a wall of bricks by deflecting a bouncing ball with a paddle. The paddle may move horizontally and is controlled with the side arrow keys.
-
-## Setup instructions
-
-Run `python/python3 brick_breaker.py`
-
+## How to play Bubble shooter game
+- In order to shoot the bubbles click on the space bar.
+- Any 3 consecutive  same color bubbles.
+- Control the arrow  with left, right and up arrow keys. 
